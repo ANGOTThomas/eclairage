@@ -1,10 +1,10 @@
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
         `)
     pins.digitalWritePin(DigitalPin.P2, 1)
 })
